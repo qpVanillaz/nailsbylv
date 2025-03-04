@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria - NailsByLV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>NailsByLV</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Koti</a></li>
+                <li><a href="about.html">Meistä</a></li>
+                <li><a href="services.html">Palvelut</a></li>
+                <li><a href="gallery.html">Galleria</a></li>
+                <li><a href="contact.html">Ota yhteyttä</a></li>
+            </ul>
+        </nav>
+    
+    <div class="gallery">
+        <div class="gallery-item">
+          <img src="image1.jpg" alt="Image 1" class="gallery-img" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+          <img src="image2.jpg" alt="Image 2" class="gallery-img" onclick="openLightbox(this)">
+        </div>
+        <div class="gallery-item">
+          <img src="image3.jpg" alt="Image 3" class="gallery-img" onclick="openLightbox(this)">
+        </div>
+          <div class="gallery-item">
+            <img src="image5.jpg" alt="Image 3" class="gallery-img" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="image6.jpg" alt="Image 3" class="gallery-img" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="image7.jpg" alt="Image 3" class="gallery-img" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="image8.jpg" alt="Image 3" class="gallery-img" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item">
+            <img src="image9.jpg" alt="Image 3" class="gallery-img" onclick="openLightbox(this)">
+          </div>
+    </div>
+
+    <!-- Lightbox modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Full size image">
+      </div>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
+
+    <footer>
+        <p>&copy; 2025 Your Nail Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
